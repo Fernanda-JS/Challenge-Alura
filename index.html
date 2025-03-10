@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Amigo secreto </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <nav>
+      <h1> Amigo secreto </h1>
+      <ul>
+        <li> Contato </li>
+      </ul>
+    </nav>
+
+    <div class="add-friend">
+      <article>
+        <label for="friend"> Nome amigo: </label>
+        <input type="text" id="friend" name="friend">
+
+        <div class="button">
+          <button onclick="includeFriend()"> Adicionar </button>
+        </div>
+      </article>
+    </div>
+
+    <div class="list">
+      <h2> Lista de amigos adicionados </h2>
+
+      <span id="list-friends"></span>
+
+      <div class="button">
+        <button onclick="validatedSortName()"> Sortear amigo </button>
+        <button id="button-delete" onclick="deleteList()"> Apagar lista </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

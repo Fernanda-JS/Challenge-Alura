@@ -1,0 +1,77 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: darkorchid;
+  color: #fff;
+}
+
+nav ul li {
+  list-style: none;
+  background: rgb(112, 33, 151);
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-friend {
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+}
+
+.add-friend label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.add-friend input {
+  font-size: 1rem;
+  padding: 2.5px;
+  width: 22rem;
+  outline: none;
+}
+
+.add-friend button {
+  margin-top: 10px;
+}
+
+.add-friend article div {
+  text-align: center;
+}
+
+button {
+  font-size: 1rem;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: darkorchid;
+  color: #fff;
+  cursor: pointer;
+}
+
+.list {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.list h2 {
+  margin-bottom: 0.5rem;
+}
+
+.list button {
+  margin-top: 1rem;
+}
+
+#button-delete {
+  background: red;
+}
